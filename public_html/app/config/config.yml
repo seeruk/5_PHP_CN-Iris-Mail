@@ -21,6 +21,8 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+    globals:
+        site_name: "Iris Mail"
 
 # Assetic Configuration
 assetic:

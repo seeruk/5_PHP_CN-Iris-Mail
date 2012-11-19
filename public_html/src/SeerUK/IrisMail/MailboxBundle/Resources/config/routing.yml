@@ -1,0 +1,3 @@
+seer_uk_iris_mail_mailbox_homepage:
+    pattern:  /
+    defaults: { _controller: SeerUKIrisMailMailboxBundle:Default:index }
